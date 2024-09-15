@@ -26,7 +26,7 @@ export const AboutSection = () => {
                 </AboutWrapper>
                 <Projects />
                 <div className='btn_links'>
-                    <ButtonLink url="projects" label="All Projects" />
+                    <ButtonLink url="project" label="All Projects" />
                     <ButtonLink url="contact" label="Contact me" />
                 </div>
             </Container>

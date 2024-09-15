@@ -1,0 +1,51 @@
+.form_contact {
+    width: 40vw;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0.8rem auto;
+
+    @media screen and (max-width: 1090px) {
+        width: 80vw;
+    }
+    
+    @media screen and (max-width: 1090px) {
+        width: 80vw;
+    }
+
+
+    .input_group {
+        width: 100%;
+        display: flex;
+        gap: 3rem;
+
+        
+
+        &:nth-child(1) {
+            flex-direction: row;
+
+            @media screen and (max-width: 1090px) {
+                flex-direction: column;
+            }
+        }
+
+    }
+
+    .btn_form {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--main-color);
+        background-color: var(--third-color);
+        padding: .8rem 2rem;
+        cursor: pointer;
+        border: none;
+        width: auto;
+        align-self: center;
+        
+    }
+
+
+}

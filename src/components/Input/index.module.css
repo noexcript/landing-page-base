@@ -1,0 +1,25 @@
+.input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+    label{
+        color: var(--main-color);
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+
+    input{
+        padding: .5rem 0;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid var(--main-color);
+        color: var(--main-color);
+
+        &:focus, &:hover{
+            border-bottom: 1px solid var(--main-color);
+            outline: none;
+        }
+    }
+}
