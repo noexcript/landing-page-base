@@ -13,9 +13,18 @@
 
 html {
   width: 100vw;
+  overflow-x: hidden !important;
 
   body {
     width: 100%;
+    overflow-x: hidden;
+
+    #root {
+      width: 100%;
+      overflow-x: hidden;
+
+
+    }
   }
 }
 
@@ -34,9 +43,9 @@ a {
 
 .wrapper {
   width: 100%;
-
   display: flex;
   margin: 0 auto;
+
 
   &.dark {
     background-color: var(--main-color);
@@ -48,13 +57,21 @@ a {
 }
 
 .wrapper-children {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
+
 
   &.wrapper-footer {
     padding: 8rem 0;
+
+    @media screen and (max-width: 820px) {
+      flex-direction: column;
+      row-gap: 2rem;
+      ;
+
+    }
   }
 
   &.wrapper-header {

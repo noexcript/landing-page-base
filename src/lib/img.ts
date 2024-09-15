@@ -13,6 +13,9 @@ import git from '../../assets/git.png'
 import npm from '../../assets/npm.png'
 import project from '../../assets/project.png'
 import arrow_right from '../../assets/arrow_right.png'
+import times from '../../assets/times.png'
+import instagram from '../../assets/instagram.png'
+import twitter from '../../assets/twitter.png'
 
 export {
     logo,
@@ -28,5 +31,8 @@ export {
     git,
     npm,
     project,
-    arrow_right
+    arrow_right,
+    times,
+    instagram,
+    twitter
 }

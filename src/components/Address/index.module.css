@@ -10,9 +10,3 @@
         cursor: pointer;
     }
 }
-
-.address_footer{
-    a{
-        color: var(--secondary-color)!important;
-    }
-}

@@ -1,0 +1,10 @@
+.networks{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}

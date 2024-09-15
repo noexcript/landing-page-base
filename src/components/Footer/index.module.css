@@ -1,0 +1,24 @@
+
+.navbar_footer {
+    flex-direction: row;
+    a {
+        font-size: 1.2rem;
+        color: white;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 640px) {
+        flex-direction: column;
+        
+  
+      }
+
+  
+}
+
+
+.address_footer{
+    a{
+        color: var(--secondary-color)!important;
+    }
+}
