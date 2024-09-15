@@ -11,6 +11,8 @@ import chrome from '../../assets/chrome.png'
 import vscode from '../../assets/vscode.png'
 import git from '../../assets/git.png'
 import npm from '../../assets/npm.png'
+import project from '../../assets/project.png'
+import arrow_right from '../../assets/arrow_right.png'
 
 export {
     logo,
@@ -24,5 +26,7 @@ export {
     chrome,
     vscode,
     git,
-    npm
+    npm,
+    project,
+    arrow_right
 }

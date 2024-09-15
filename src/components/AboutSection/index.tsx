@@ -1,8 +1,9 @@
-import { Children } from "react"
 import { Container } from "../Container"
 import css from './index.module.css'
 import { AboutWrapper } from "../AboutWrapper"
 import { Skills } from "../Skills"
+import { Projects } from "../Projects"
+import { ButtonLink } from "../Button"
 
 
 export const AboutSection = () => {
@@ -23,7 +24,11 @@ export const AboutSection = () => {
                         <Skills />
                     </div>
                 </AboutWrapper>
-                
+                <Projects />
+                <div className={css.btn_links}>
+                    <ButtonLink url="projects" label="All Projects" />
+                    <ButtonLink url="contact" label="Contact me" />
+                </div>
             </Container>
         </section >
     )
