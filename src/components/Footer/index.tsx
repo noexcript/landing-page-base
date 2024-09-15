@@ -7,7 +7,7 @@ import { NavBar } from '../Nabar'
 const Footer = () => {
 
     return (
-        <footer className='wrapper'>
+        <footer className='wrapper dark'>
             <Container>
                 <div className='wrapper-children wrapper-footer'>
                     <NavBar />

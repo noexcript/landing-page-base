@@ -4,7 +4,7 @@ import css from './index.module.css'
 
 export const Hero = ({ title, text }: HeroProps) => {
     return (
-        <section className='wrapper'>
+        <section className='wrapper dark'>
             <Container>
                 <div className={css.hero}>
                     <h1>
