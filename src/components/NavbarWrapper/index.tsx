@@ -27,10 +27,10 @@ export const NavbarWrapper = () => {
                         <div className={css.nav_link_wrapper}>
                             <span>MENU</span>
                             <NavBar className={css.navbar_header}>
-                                <Link to='/'>Home</Link>
-                                <Link to='/'>Projects</Link>
-                                <Link to='/'>About</Link>
-                                <Link to='/'>Contact</Link>
+                                <Link to='/' onClick={() => setIsOpen(false)}>Home</Link>
+                                <Link to='/project' onClick={() => setIsOpen(false)}>Projects</Link>
+                                <Link to='/about' onClick={() => setIsOpen(false)}>About</Link>
+                                <Link to='/contact' onClick={() => setIsOpen(false)}>Contact</Link>
                             </NavBar>
                         </div>
                         <div className={css.address_and_network}>
