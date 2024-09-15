@@ -23,6 +23,7 @@ export const AboutSection = () => {
                         <Skills />
                     </div>
                 </AboutWrapper>
+                
             </Container>
         </section >
     )
